@@ -37,6 +37,7 @@ const AddExpenseForm = (props) => {
 						id='name'
 						value={name}
 						onChange={(event) => setName(event.target.value)}
+						placeholder="Enter expense name..."
 					/>
 				</div>
 				<div class='col-sm col-lg-4'>
@@ -48,6 +49,7 @@ const AddExpenseForm = (props) => {
 						id='cost'
 						value={cost}
 						onChange={(event) => setCost(event.target.value)}
+						placeholder="Enter expense cost..."
 					/>
 				</div>
 			</div>
